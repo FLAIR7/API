@@ -1,0 +1,10 @@
+@host = https://localhost:7182
+
+POST {{host}}/v1/api/auth/register
+Content-Type: application/json
+
+{
+    "name": "Vinicius",
+    "email": "vinicius@microsoft.com",
+    "password": "vinicius123"
+}
