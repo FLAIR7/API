@@ -1,7 +1,7 @@
 namespace API.Contracts.Authentication;
 
 public record AuthenticationResponse (
-    int Id,
+    Guid Id,
     string Name,
     string Email,
     string Token
